@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+}
+
+body {
+    background: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: 0;
+    display: flex;
+    color: #000000;
+}
+
+@media screen and (max-width: 1200px) {
+  .banner .container,
+  .slide2 .container,
+  .slide3 .container,
+  .slide4 .container,
+  .slide5 .container,
+  footer .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .slide2 .container .row h3,
+  .slide3 .container .row h3,
+  .slide4 .container .row h3,
+  .slide4 .container .row a,
+  .slide5 .container .row h3 {
+    font-size: 25px;
+  }
+}
