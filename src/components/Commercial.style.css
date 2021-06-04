@@ -1,0 +1,54 @@
+.slide4 {
+  width: 100%;
+  background: #EE0E7D;
+}
+
+.slide4 .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slide4 .container .row {
+  height: 480px;
+  padding: 10% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slide4 .container .row h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 60%;
+}
+
+.slide4 .container .row p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.slide4 .container .row a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: 0.5s
+}
+
+.slide4 .container .row a:hover {
+  transition: 1s;
+  filter:invert(1);
+}

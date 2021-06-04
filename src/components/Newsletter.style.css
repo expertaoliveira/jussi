@@ -1,0 +1,89 @@
+.slide5 {
+  width: 100%;
+  background: #000;
+}
+
+.slide5 .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slide5 .container .row {
+  position: relative;
+  height: 436px;
+  padding: 10% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.slide5 .container .row h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: flex;
+  width: 80%;
+}
+
+.title-newsletter {
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+
+.slide5 .container .row h3::before {
+  color: #03FFA5;
+  content: '//';
+  position: relative;
+  left: 0px;
+}
+
+.slide5 .container .row form {
+  border: 1px solid #03FFA5;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.slide5 .container .row input,
+.slide5 .container .row input:hover,
+.slide5 .container .row input:focus
+ {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #000000;
+  border: none;
+  width: 320px;
+  height: 60px;
+  box-shadow: none;
+  outline: 0;
+}
+
+.slide5 .container .row button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #03FFA5;
+  background: #000;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+  transition: 0.5s
+}
+
+.slide5 .container .row button:hover {
+  text-shadow: 1px 1px 2px #03FFA5, 0 0 1em #03FFA5, 0 0 0.2em #03FFA5;
+}

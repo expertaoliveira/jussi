@@ -1,0 +1,38 @@
+.search {
+  margin-top: 80px;
+}
+
+.search .container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.search .container h3 {
+  margin: 120px 0 60px 0;
+  text-transform: uppercase;
+}
+
+.result-item {
+  width: 320px;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  padding: 20px
+}
+
+.result-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.result-list .thumb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.result-item img {
+  width: 280px;
+}
