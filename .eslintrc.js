@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: ['react', 'prettier', 'jest'],
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'jest/no-disabled-tests': 'warn',
